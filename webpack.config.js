@@ -7,7 +7,9 @@ module.exports = {
   resolve: {
     root: __dirname,
     alias: {
-      Markdown: "app/components/Markdown.jsx"
+      Markdown: "app/components/Markdown.jsx",
+      MarkdownDisplay: "app/components/MarkdownDisplay.jsx",
+      MarkdownText: "app/components/MarkdownText.jsx"
     },
     extensions: ['', '.js', '.jsx']
   },

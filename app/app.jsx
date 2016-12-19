@@ -1,7 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var Markdown = require("Markdown");
 
 ReactDOM.render(
-  <h1>Boilerplate app!</h1>,
+  <Markdown/>,
   document.getElementById('app')
 );
